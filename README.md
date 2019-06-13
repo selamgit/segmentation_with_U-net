@@ -93,8 +93,8 @@ could also be used to segment 3D images slice by slice manner.
 
 ![images/prediction.png](images/prediction.png)
 
-![images/0_test.png](images/0_test.png)
-![images/0_predict.png](images/0_predict.png)
+![images/0_test.png](images/0_test.png =250x250)
+![images/0_predict.png](images/0_predict.png =250x250)
 
 ### 3D segmentation
 ---------------
@@ -112,8 +112,8 @@ successfully.
 ![images/3D_unet_segmentation.png](images/3D_unet_segmentation.png)
 
 ### REFERENCE
-[onneberger, O., Fischer, P., Brox, T., 2015. U-Net: Convolutional Networks for Biomedical Image Segmentation, in: Medical Image Computing and Computer-Assisted Intervention (MICCAI). Springer, pp. 234–241.](http://lmb.informatik.uni-freiburg.de/people/ronneber/u-net/)
+[Ronneberger, O., Fischer, P., Brox, T., 2015. U-Net: Convolutional Networks for Biomedical Image Segmentation, in: Medical Image Computing and Computer-Assisted Intervention (MICCAI). Springer, pp. 234–241.](http://lmb.informatik.uni-freiburg.de/people/ronneber/u-net/)
 
-[aktola, S., Grudzień, K., Babout, L. 2019 Stagnant zone segmentation with U-net: Artificial Intelligence &
+[Waktola, S., Grudzień, K., Babout, L. 2019 Stagnant zone segmentation with U-net: Artificial Intelligence &
 Knowledge Engineering, Cagliari, Italy.](https://www.researchgate.net/publication/333755407_Stagnant_zone_segmentation_with_U-net)
 
