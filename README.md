@@ -91,9 +91,10 @@ You could generate predicted results of test image in data/material/test
 Use the trained model to generate predicted segmentation on test images, it
 could also be used to segment 3D images slice by slice manner.
 
+![images/0_test.png](images/0_test.png)
+
 ![images/prediction.png](images/prediction.png)
 
-![images/0_test.png](images/0_test.png)
 
 ### 3D segmentation
 ---------------
