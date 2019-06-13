@@ -93,8 +93,8 @@ could also be used to segment 3D images slice by slice manner.
 
 ![images/prediction.png](images/prediction.png)
 
-![images/0_test.png](images/0_test.png =250x250)
-![images/0_predict.png](images/0_predict.png =250x250)
+![images/0_test.png](images/0_test.png | width=256)
+![images/0_predict.png](images/0_predict.png | width=256)
 
 ### 3D segmentation
 ---------------
