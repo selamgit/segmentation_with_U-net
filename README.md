@@ -18,7 +18,7 @@ Tomography (CT) images.
 
 In the present work, a U-net architecture is used for
 segmenting the stagnant zone during silo discharging process. [You can find the full conference paper :
-HERE](https://www.researchgate.net/publication/333755407_Stagnant_zone_segmentation_with_U-net).
+HERE](https://www.researchgate.net/publication/333787100_Stagnant_zone_segmentation_with_U-net).
 
 ### Architecture
 
@@ -126,5 +126,5 @@ If you find our work useful, please cite:
 
 [Kingma, D.P., Ba, J. 2014 : Adam: A Method for Stochastic Optimization. Int. Conf. Learn. Represent.](https://arxiv.org/pdf/1412.6980.pdf)
 
-[Waktola, S., Grudzień, K., Babout, L. 2019 : Stagnant zone segmentation with U-net: 2019 IEEE Second International Conference on Artificial Intelligence and Knowledge Engineering (AIKE), Cagliari, Italy.](https://www.researchgate.net/publication/333755407_Stagnant_zone_segmentation_with_U-net)
+[Waktola, S., Grudzień, K., Babout, L. 2019 : Stagnant zone segmentation with U-net: 2019 IEEE Second International Conference on Artificial Intelligence and Knowledge Engineering (AIKE), Cagliari, Sardinia (Italy).](https://www.researchgate.net/publication/333755407_Stagnant_zone_segmentation_with_U-net)
 
