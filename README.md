@@ -13,12 +13,12 @@ This deep neural networks is implemented with Keras.
 
 Even though convolutional neural network (CNN) has recently become popular and
 has increasingly been used as an alternative to many traditional pattern
-recognition problems, its application for segmenting stagnant zones of X-ray CT
-images is not common.
+recognition problems, it's application in material science is not common, for instance for segmenting stagnant zones of X-ray Computed
+Tomography (CT) images.
 
-This paper proposed a deep neural networks technique for segmenting the stagnant
-zone automatically. You can find the full conference paper
-[HERE](https://www.researchgate.net/publication/333755407_Stagnant_zone_segmentation_with_U-net).
+In the present work, a U-net architecture is used for
+segmenting the stagnant zone during silo discharging process. [You can find the full conference paper :
+HERE](https://www.researchgate.net/publication/333755407_Stagnant_zone_segmentation_with_U-net).
 
 ### Architecture
 
@@ -32,7 +32,7 @@ One of the major modifications is that the original u-net used stochastic gradie
 
 ### Data augmentation
 
-Since the available dataset is small(only 30 images), an extensive amount of data augmentations
+Since the available dataset is small (only 30 images), an extensive amount of data augmentations
 has been applied to improve the performance of the network.
 
 The main goal of such augmentations is to prevent the network from memorizing
@@ -66,7 +66,7 @@ were used for the evaluation of the network performance.
 
 The model was trained for 5 epochs.
 
-After 5 epochs, calculated accuracy (Intersection over Union (IoU)) is about
+After 5 epochs, calculated accuracy (Intersection over Union (IoU)) was about
 **0.97** percent.
 
 How to use
@@ -82,7 +82,7 @@ This tutorial depends on the following libraries:
 
 -   Python versions \>=2.7
 
-### Run main.py OR trainUnet.ipynb
+### Run main.py
 
 You could generate predicted results of test image in data/material/test
 
@@ -124,7 +124,7 @@ If you find our work useful, please cite:
 ### REFERENCE
 [Ronneberger, O., Fischer, P., Brox, T., 2015, U-Net: Convolutional Networks for Biomedical Image Segmentation, in: Medical Image Computing and Computer-Assisted Intervention (MICCAI). Springer, pp. 234–241.](http://lmb.informatik.uni-freiburg.de/people/ronneber/u-net/)
 
-Kingma, D.P., Ba, J. 2014 : Adam: A Method for Stochastic Optimization. Int. Conf. Learn. Represent. (https://arxiv.org/pdf/1412.6980.pdf)
+[Kingma, D.P., Ba, J. 2014 : Adam: A Method for Stochastic Optimization. Int. Conf. Learn. Represent.](https://arxiv.org/pdf/1412.6980.pdf)
 
 [Waktola, S., Grudzień, K., Babout, L. 2019 Stagnant zone segmentation with U-net: Artificial Intelligence &
 Knowledge Engineering, Cagliari, Italy.](https://www.researchgate.net/publication/333755407_Stagnant_zone_segmentation_with_U-net)
