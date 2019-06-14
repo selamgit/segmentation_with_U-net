@@ -32,7 +32,7 @@ One of the major modifications is that the original u-net used stochastic gradie
 
 ### Data augmentation
 
-Since the available dataset is small, an extensive amount of data augmentations
+Since the available dataset is small(only 30 images), an extensive amount of data augmentations
 has been applied to improve the performance of the network.
 
 The main goal of such augmentations is to prevent the network from memorizing
@@ -64,7 +64,7 @@ During training, 30 manually annotated ground truth segmentations were used to
 train the network to recognize the stagnant zone borders. The testing datasets
 were used for the evaluation of the network performance.
 
-The model is trained for 5 epochs.
+The model was trained for 5 epochs.
 
 After 5 epochs, calculated accuracy (Intersection over Union (IoU)) is about
 **0.97** percent.
@@ -88,8 +88,7 @@ You could generate predicted results of test image in data/material/test
 
 ### Results
 
-Use the trained model to generate predicted segmentation on test images, it
-could also be used to segment 3D images slice by slice manner.
+Use the trained model to generate predicted segmentation on test images. Some example images below: original and predicted segmentations:
 
 ![images/0_test.png](images/0_test.png)
 
@@ -105,14 +104,27 @@ zone.
 
 In order to prove that the trained model could generate the stagnant zone
 segmentation for completely different scan (the model was trained on sorghum
-grains flow scan), it was tested by using s 3D scan of rice grains flow. The
+grains flow scan), it was tested by using a 3D scan of rice grains flow. The
 result shows that the trained model was able to generate predicted segmentation
 successfully.
 
 ![images/3D_unet_segmentation.png](images/3D_unet_segmentation.png)
 
+### Citation
+If you find our work useful, please cite:
+```
+@inproceedings{2019 IEEE Second International Conference on Artificial Intelligence and Knowledge Engineering (AIKE),
+    title = {Stagnant zone segmentation with U-net}
+    author = {Selam Waktola, Krzysztof Grudzien, Laurent Babout},              
+    Conference = {Artificial Intelligence & Knowledge EngineeringAt: Cagliari, Italy},
+    year = {June 2019}
+}
+```
+
 ### REFERENCE
-[Ronneberger, O., Fischer, P., Brox, T., 2015. U-Net: Convolutional Networks for Biomedical Image Segmentation, in: Medical Image Computing and Computer-Assisted Intervention (MICCAI). Springer, pp. 234–241.](http://lmb.informatik.uni-freiburg.de/people/ronneber/u-net/)
+[Ronneberger, O., Fischer, P., Brox, T., 2015, U-Net: Convolutional Networks for Biomedical Image Segmentation, in: Medical Image Computing and Computer-Assisted Intervention (MICCAI). Springer, pp. 234–241.](http://lmb.informatik.uni-freiburg.de/people/ronneber/u-net/)
+
+Kingma, D.P., Ba, J. 2014 : Adam: A Method for Stochastic Optimization. Int. Conf. Learn. Represent. (https://arxiv.org/pdf/1412.6980.pdf)
 
 [Waktola, S., Grudzień, K., Babout, L. 2019 Stagnant zone segmentation with U-net: Artificial Intelligence &
 Knowledge Engineering, Cagliari, Italy.](https://www.researchgate.net/publication/333755407_Stagnant_zone_segmentation_with_U-net)
