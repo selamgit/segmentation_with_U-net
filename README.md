@@ -122,9 +122,9 @@ If you find our work useful, please cite:
 ```
 
 ### REFERENCE
-[Ronneberger, O., Fischer, P., Brox, T., 2015, U-Net: Convolutional Networks for Biomedical Image Segmentation, in: Medical Image Computing and Computer-Assisted Intervention (MICCAI). Springer, pp. 234–241.](http://lmb.informatik.uni-freiburg.de/people/ronneber/u-net/)
+[Ronneberger, O., Fischer, P., Brox, T., 2015 : U-Net: Convolutional Networks for Biomedical Image Segmentation, in: Medical Image Computing and Computer-Assisted Intervention (MICCAI). Springer, pp. 234–241.](http://lmb.informatik.uni-freiburg.de/people/ronneber/u-net/)
 
 [Kingma, D.P., Ba, J. 2014 : Adam: A Method for Stochastic Optimization. Int. Conf. Learn. Represent.](https://arxiv.org/pdf/1412.6980.pdf)
 
-[Waktola, S., Grudzień, K., Babout, L. 2019 Stagnant zone segmentation with U-net: 2019 IEEE Second International Conference on Artificial Intelligence and Knowledge Engineering (AIKE), Cagliari, Italy.](https://www.researchgate.net/publication/333755407_Stagnant_zone_segmentation_with_U-net)
+[Waktola, S., Grudzień, K., Babout, L. 2019 : Stagnant zone segmentation with U-net: 2019 IEEE Second International Conference on Artificial Intelligence and Knowledge Engineering (AIKE), Cagliari, Italy.](https://www.researchgate.net/publication/333755407_Stagnant_zone_segmentation_with_U-net)
 
