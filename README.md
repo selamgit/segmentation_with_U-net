@@ -90,9 +90,7 @@ You could generate predicted results of test image in data/material/test
 
 Use the trained model to generate predicted segmentation on test images. Some example images below: original and predicted segmentations:
 
-<img src="https://github.com/selamgit/segmentation_with_U-net/blob/master/images/0_test.png" width="400" height="180" title="Original image and predicted segmentation">
-
-<img src="https://github.com/selamgit/segmentation_with_U-net/blob/master/images/prediction.png" width="600" height="180" title="Original image, predicted segmentation and prediction mask">
+<img src="https://github.com/selamgit/segmentation_with_U-net/blob/master/images/prediction.png" width="588" height="229"title="Original image, predicted segmentation and prediction mask">
 
 
 ### 3D segmentation
@@ -108,7 +106,7 @@ grains flow scan), it was tested by using a 3D scan of rice grains flow. The
 result shows that the trained model was able to generate predicted segmentation
 successfully.
 
-<img src="https://github.com/selamgit/segmentation_with_U-net/blob/master/images/3D_unet_segmentation.png" width="400" height="180" title="Original scan and predicted 3D segmentation">
+<img src="https://github.com/selamgit/segmentation_with_U-net/blob/master/images/3D_unet_segmentation.png" width="574" height="559" title="Original scan and predicted 3D segmentation">
 
 ### Citation
 If you find our work useful, please cite:
