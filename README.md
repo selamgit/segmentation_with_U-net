@@ -90,7 +90,7 @@ You could generate predicted results of test image in data/material/test
 
 Use the trained model to generate predicted segmentation on test images. Some example images below: original and predicted segmentations:
 
-![images/0_test.png|400x200,50%](images/0_test.png)
+<img src="https://github.com/selamgit/segmentation_with_U-net/blob/master/images/0_test.png" width="400" height="200" title="Original image and predicted segmentation">
 
 ![images/prediction.png|400x200](images/prediction.png)
 
