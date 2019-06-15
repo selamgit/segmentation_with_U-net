@@ -22,7 +22,7 @@ HERE](https://www.researchgate.net/publication/333787100_Stagnant_zone_segmentat
 
 ### Architecture
 
-![images/unet_architecture.png](images/unet_architecture.png)
+<img src="https://github.com/selamgit/segmentation_with_U-net/blob/master/images/unet_architecture.png" width="600" height="600" title="Original scan and predicted 3D segmentation">
 
 As each of the CT images already contain repetitive structures with the corresponding variation, only very few images are required to train a network that generalizes reasonably well. As a result, to make the u-net architecture work with very few training images, it has been modified to provide more accurate segmentation. 
 
@@ -90,9 +90,9 @@ You could generate predicted results of test image in data/material/test
 
 Use the trained model to generate predicted segmentation on test images. Some example images below: original and predicted segmentations:
 
-<img src="https://github.com/selamgit/segmentation_with_U-net/blob/master/images/0_test.png" width="400" height="200" title="Original image and predicted segmentation">
+<img src="https://github.com/selamgit/segmentation_with_U-net/blob/master/images/0_test.png" width="400" height="180" title="Original image and predicted segmentation">
 
-![images/prediction.png|400x200](images/prediction.png)
+<img src="https://github.com/selamgit/segmentation_with_U-net/blob/master/images/prediction.png" width="600" height="180" title="Original image, predicted segmentation and prediction mask">
 
 
 ### 3D segmentation
@@ -108,7 +108,7 @@ grains flow scan), it was tested by using a 3D scan of rice grains flow. The
 result shows that the trained model was able to generate predicted segmentation
 successfully.
 
-![images/3D_unet_segmentation.png|500x500](images/3D_unet_segmentation.png)
+<img src="https://github.com/selamgit/segmentation_with_U-net/blob/master/images/3D_unet_segmentation.png" width="400" height="180" title="Original scan and predicted 3D segmentation">
 
 ### Citation
 If you find our work useful, please cite:
