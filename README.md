@@ -90,9 +90,9 @@ You could generate predicted results of test image in data/material/test
 
 Use the trained model to generate predicted segmentation on test images. Some example images below: original and predicted segmentations:
 
-![images/0_test.png](images/0_test.png)
+![images/0_test.png|400x200,50%](images/0_test.png)
 
-![images/prediction.png](images/prediction.png)
+![images/prediction.png|400x200](images/prediction.png)
 
 
 ### 3D segmentation
@@ -108,7 +108,7 @@ grains flow scan), it was tested by using a 3D scan of rice grains flow. The
 result shows that the trained model was able to generate predicted segmentation
 successfully.
 
-![images/3D_unet_segmentation.png](images/3D_unet_segmentation.png)
+![images/3D_unet_segmentation.png|500x500](images/3D_unet_segmentation.png)
 
 ### Citation
 If you find our work useful, please cite:
