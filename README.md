@@ -22,7 +22,7 @@ HERE](https://www.researchgate.net/publication/333787100_Stagnant_zone_segmentat
 
 ### Architecture
 
-<img src="https://github.com/selamgit/segmentation_with_U-net/blob/master/images/unet_architecture.png" width="600" height="600" title="Original scan and predicted 3D segmentation">
+<img src="https://github.com/selamgit/segmentation_with_U-net/blob/master/images/unet_architecture.png" width="732" height="398" title="unet architecture">
 
 As each of the CT images already contain repetitive structures with the corresponding variation, only very few images are required to train a network that generalizes reasonably well. As a result, to make the u-net architecture work with very few training images, it has been modified to provide more accurate segmentation. 
 
@@ -90,7 +90,7 @@ You could generate predicted results of test image in data/material/test
 
 Use the trained model to generate predicted segmentation on test images. Some example images below: original and predicted segmentations:
 
-<img src="https://github.com/selamgit/segmentation_with_U-net/blob/master/images/prediction.png" width="588" height="229"title="Original image, predicted segmentation and prediction mask">
+<img src="https://github.com/selamgit/segmentation_with_U-net/blob/master/images/prediction.png" width="588" height="229" title="Original image, predicted segmentation and prediction mask">
 
 
 ### 3D segmentation
