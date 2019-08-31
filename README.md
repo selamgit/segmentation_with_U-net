@@ -48,7 +48,6 @@ dataPrepare.ipynb.
 | **Method** | **Range** |
 |------------|-----------|
 | Rotation   | \+/-20   |
-| Flip       | 50%       |
 | Shift      | 50%       |
 | Zoom       | 50%       |
 | Shear      | 50%       |
