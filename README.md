@@ -28,11 +28,11 @@ As each of the CT images already contain repetitive structures with the correspo
 
 Like on the original u-net, the modified architecture applied the same number of feature channels in upsampling part allow propagating context information to higher resolution layers.
 
-One of the major modifications is that the original u-net used stochastic gradient descent optimizer (Ronneberger et al., 2015), but this modified u-net architecture used Adam optimizer (Kingma and Ba, 2014) to minimize the categorical cross-entropy objective.
+One of the modifications is that the original u-net used stochastic gradient descent optimizer (Ronneberger et al., 2015), but this modified u-net architecture used Adam optimizer (Kingma and Ba, 2014) to minimize the categorical cross-entropy objective.
 
 ### Data augmentation
 
-Since the available dataset is small (only 30 images), an extensive amount of data augmentations
+Since the available dataset is small, an extensive amount of data augmentations
 has been applied to improve the performance of the network.
 
 The main goal of such augmentations is to prevent the network from memorizing
@@ -54,14 +54,10 @@ dataPrepare.ipynb.
 
 ### Training
 
-The dataset was first divided into two subsets, train, and test. The first
-subset contains 30 images in which 80% were used for training and 20% for
-validation. The trained model was next tested on the second subset which
-contains the remaining 10 images.
+The dataset was first divided into two subsets, train, and test. In which 80% were used for training and 20% for
+validation. The trained model was next tested on the second subset which contains 10 images.
 
-During training, 30 manually annotated ground truth segmentations were used to
-train the network to recognize the stagnant zone borders. The testing datasets
-were used for the evaluation of the network performance.
+The testing datasets were used for the evaluation of the network performance.
 
 The model was trained for 5 epochs.
 
@@ -82,6 +78,9 @@ This tutorial depends on the following libraries:
 -   Python versions \>=2.7
 
 ### Run main.py
+
+Put your training images in data/material/image
+Put your training labels in data/material/label
 
 You could generate predicted results of test image in data/material/test
 
